@@ -1,0 +1,15 @@
+Package: dpath
+Type: Package
+Title: Quantitative Assessment of Progenitor and Committed States in
+        Single Cell Transcriptomics
+Version: 2.0.1
+Date: 2016-12-06
+Author: Wuming Gong <gongx030@umn.edu>
+Maintainer: Wuming Gong <gongx030@umn.edu>
+Description: Decomposing the expression matrix of single cell RNA-seq, with the awareness of the dropout events, quantitatively assessing the cellular state and prioritizing important genes for both progenitor and committed cellular states.  
+License: GPL (>=2)
+Imports: Matrix, FNN, irlba, MASS, igraph, parallel, kohonen,
+        colorspace, gplots, cluster, fields, class
+NeedsCompilation: no
+Packaged: 2016-12-06 22:53:50 UTC; gongw0
+Depends: R (>= 2.10)
